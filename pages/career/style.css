@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins";
+  padding-top: 0px;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+header {
+  background-color: #232536;
+  width: 100%;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+.nav-list--item a {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  transition: all 0.3s ease;
+}
+
+.nav-list {
+  display: flex;
+  gap: 0 2rem;
+}
+
+.nav-list--item a :hover {
+  color: #ffd3af;
+}
+
+.active {
+  color: #fff !important;
+}
+
+.clone {
+  color: #ffd3af !important;
+}
+
+.clone::after {
+  content: "→";
+  position: absolute;
+  color: #ffd3af;
+  right: -10px;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+.nav-list--item {
+  position: relative;
+}
+
+.nav-list--item :hover::after {
+  right: -20px;
+  opacity: 1;
+  transition: all 0.2s linear;
+}
+
+/* ------------------- HEADER SECTION END -------------------- */
+
+/* -------------------section start --------------------------- */
+
+
+.main-div {
+  margin-top: 157px;
+  position: relative;
+}
+
+.main-div-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.main-div-text {
+  width: 624px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-div-text p:first-child{
+
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+.main-div-text h1{
+  width: 624px;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.main-div-text p:last-child {
+  width: 624px;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.555);
+}
+
+
+
+.main-div-careers {
+  font-size: 250px;
+  font-weight: 900;
+  background-image: url(../../assets/images/Image\(5\).png);
+  background-repeat: repeat;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-div-smail {
+  text-align: center;
+}
+
+.main-div-smail p:first-child {
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 16px;
+}
+
+
+/* ---------------section stop---------- */
+/* ---------- nine div section start---------- */
+
+
+#nine-div-section {
+  background-color: #ECF8F9;
+  width: 1300px;
+  padding: 76px;
+  
+}
+
+.nine-div-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+
+}
+
+.text-div-wrapper {
+  width: 354px;
+  background-color: white;
+  padding: 48px 0 30px 48px;
+
+}
+
+.text-div-wrapper a::after {
+  content: "→";
+  padding-left: 7px;
+}
+
+
+.text-div-wrapper h6 {
+  font-weight: 600;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+
+.text-div-wrapper p {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.445);
+}
+
+.text-div-wrapper div {
+  margin-top: 52px;
+}
+
+
+/* -------------------nine div section end----------- */
+/* ------------------- working section start----------- */
+
+.our-working p:first-child {
+  font-weight: 500;
+  font-size: 14px;
+  padding-bottom: 16px;
+  margin-top: 192px;
+}
+
+.our-working h3 {
+  width: 624px;
+  font-weight: 600;
+  font-size: 36px;
+  padding-bottom: 24px;
+}
+
+
+.our-working p:last-child {
+  width: 624px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.six-div-section {
+  background-color: #ECF8F9;
+  width: 1300px;
+  padding: 76px;
+}
+
+.div-six-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: px;
+}
+
+.div-wrapper {
+  width: 418px;
+  padding: 32px 32px;
+}
+
+.div-wrapper h6 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.div-wrapper p{
+  width: 354px;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.409);
+}
